@@ -1,3 +1,7 @@
+* {
+  font-size: 16px;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -11,17 +15,26 @@ body {
 
 .title {
   background: #e3f4ff;
+  display: block;
+  margin: 8px auto;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px 8px;
+  margin-bottom: 16px;
 }
 
 .button-container {
   background: #e3f4ff;
+  display: block;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0px auto;
+  padding: 8px 16px;
 }
